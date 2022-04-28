@@ -1,0 +1,35 @@
+input {
+
+    width: 250px;
+    height: 50px;
+  }
+
+  #movies {
+    
+    height: 300px;
+    width: 256px;
+    
+    overflow-y: scroll;
+
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
+  body{background-image: url("https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png");}
+  #main{display: flex;
+    }
+
+    #detaildiv{
+     
+      display: flex;
+      margin-left: 200px;
+      margin-top: 20px;
+      padding: 20px;
+      height: 330px;
+    }
+    #query{margin-top: 20px;}
+    #heading{margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  text-shadow: 0 0 20px #ff0000, 0 0 20px #ff0000; }
